@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-conn = sqlite3.connect('major_requirements.db')
+conn = sqlite3.connect('major_req_updated.db')
 cursor = conn.cursor()
 
 cursor.execute('SELECT * FROM Majors')
